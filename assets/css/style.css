@@ -17,6 +17,10 @@
     background-color: #2F1893;
 }
 
+.w-100 {
+    width: 100%;
+}
+
 .container {
     max-width: 1159px;
     margin-left: auto;
@@ -92,18 +96,21 @@
 
 .Startup {
     font-size: 24px;
+    font-weight: 400;
     color: #ffffff;
     font-family: "Poppins", sans-serif;
 }
 
 .nav {
     font-size: 18px;
+    font-weight: 400;
     color: #ffffff;
     font-family: "DM Sans", sans-serif;
 }
 
 .Sign-Up {
     font-size: 18px;
+    font-weight: 400;
     color: #ffffff;
     font-family: "DM Sans", sans-serif;
 }
@@ -119,6 +126,7 @@
 
 .para {
     font-size: 22px;
+    font-weight: 400;
     color: #ffffff;
     font-family: "DM Sans", sans-serif;
 }
@@ -140,13 +148,22 @@
     height: 60px;
     padding: 12px;
     outline: none;
+    display: flex;
+    align-items: center;
     border-radius: 100px;
+    justify-content: center;
     border: 2px solid #5946A9;
     background-color: #2F1893;
 }
 
+::placeholder {
+    color: #FFFFFF40;
+    opacity: 100% !important;
+}
+
 .Send {
     font-size: 20px;
+    font-weight: 400;
     color: #ffffff;
     font-family: "Poppins", sans-serif;
 }
@@ -160,16 +177,17 @@
     background-color: #25DAC5;
 }
 
-.opacity {
+.opacity-30 {
     opacity: 30%;
 }
 
-.Opacity {
+.Opacity-40 {
     opacity: 40%;
 }
 
 .last-line {
     font-size: 16px;
+    font-weight: 400;
     color: #FFFFFF;
     font-family: "Poppins", sans-serif;
 }
