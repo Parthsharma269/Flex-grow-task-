@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-grow (task)</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section class="bg-blue min-vh-100 d-flex flex-column">
+        <header class="sticky">
+            <nav
+                class="container d-flex align-items-center justify-content-center text-center justify-content-between py-53">
+                <h3 class="Startup cursor">Startup&nbsp;3</h3>
+                <label for="icon" class="icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <input type="checkbox" id="icon" hidden>
+                <ul class="d-flex align-items-center justify-content-center text-center gap-33 mobile-view">
+                    <li class="nav cursor">Subscribe</li>
+                    <li class="nav cursor">Features</li>
+                    <li><button class="Sign-Up-btn Sign-Up cursor">Sign&nbsp;Up</button></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="d-flex align-items-center justify-content-center text-center flex-grow">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-center text-center flex-column">
+                    <h6 class="para para-m-w text-center">The most important part of the Startup is the samples. The
+                        samples form a set of 25 usable pages you can use as is or you can add new blocks from UI Kit.
+                    </h6>
+                </div>
+                <div class="d-flex align-items-center justify-content-center text-center gap-10 pt-73 flex-wrap">
+                    <input class="Your-email-btn email Opacity w-100 cursor" placeholder="Your&nbsp;email"
+                        id="Your&nbsp;email" />
+                    <button class="Send-btn Send cursor mt-sm-7">Send</button>
+                </div>
+                <h6 class="last-line text-center opacity pt-32 pt-sm-12">By signing up, you agree to the Terms of
+                    Service</h6>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
